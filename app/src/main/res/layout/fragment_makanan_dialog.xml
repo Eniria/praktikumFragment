@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MakananDialogFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pilih Makanan Anda" />
+    <RadioGroup
+        android:id="@+id/rg_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_nasi_goreng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng"/>
+        <RadioButton
+            android:id="@+id/rb_nasi_padang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Padang"/>
+        <RadioButton
+            android:id="@+id/rb_nasi_Telur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Telur"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"
+            android:text="Cancel"/>
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"
+            android:text="select"/>
+    </LinearLayout>
+
+</LinearLayout>
